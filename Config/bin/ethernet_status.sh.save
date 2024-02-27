@@ -1,0 +1,18 @@
+#!/bin/sh
+
+linea=1
+
+interface=$(/usr/sbin/ifconfig | grep -oP '^\w+(?=:)' | awk "NR==1")
+
+while true; do
+    interface=$(/usr/sbin/ifconfig | grep -oP '^\w+(?=:)' | awk "NR==$linea")
+
+    if [[ $interface =~ ^docker[0-9]{1,2}$ ]]; then
+        interface=$(/usr/sbin/ifconfig | grep -oP '^\w+(?=:)' | awk "NR==$linea")
+    else
+        linea=$((linea + 1))
+    fi
+done
+
+
+echo "%{F#CCCC00} %{F#CCCC00}$(/usr/sbin/ifconfig $interface | grep "inet " | awk '{print $2}')%{u-}"
