@@ -152,12 +152,6 @@ mkdir $ruta/curl_
 
 cd $ruta/curl_
 
-wget -O firefox.tar.bz2 'https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=es-ES' 
-
-tar -xvf firefox.tar.bz2
-
-sudo cp -r firefox /opt
-
 curl -O -J -L "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.8/obsidian_1.5.8_amd64.deb"
 
 curl -O -J -L "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" 
@@ -165,6 +159,12 @@ curl -O -J -L "https://code.visualstudio.com/sha/download?build=stable&os=linux-
 chmod +x $ruta/curl_/*.deb
 
 sudo dpkg -i $ruta/curl_/*.deb
+
+wget -O firefox.tar.bz2 'https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=es-ES' 
+
+tar -xvf firefox.tar.bz2
+
+sudo cp -r firefox /opt
 
 # Removiendo Repositorio
 
