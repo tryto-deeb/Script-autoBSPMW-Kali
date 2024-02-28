@@ -146,11 +146,17 @@ sudo apt update
 
 sudo apt install brave-browser -y
 
+#Instalando firefox, visual studio code y obsidian
 
 mkdir $ruta/curl_
 
 cd $ruta/curl_
- 
+
+wget -O firefox.tar.bz2 'https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=es-ES' 
+
+tar -xvf firefox.tar.bz2
+
+sudo cp -r firefox /opt
 
 curl -O -J -L "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.8/obsidian_1.5.8_amd64.deb"
 
