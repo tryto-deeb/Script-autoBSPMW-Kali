@@ -94,9 +94,12 @@ Este script deberia funcionar en cualquier distribución de Debian, menos en Par
 
 ![Ejemplo.png](https://github.com/tryto-deeb/Script-autoBSPMW-Kali/blob/master/ejemplo_error_descarga.png)
 
+Normalmente , el direcotorio de zsh-sudo , sino es asi lo creamos en esta ruta:
 ```
  sudo mkdir /usr/share/zsh-sudo
 ```
+Si ya existe el directorio, simplemente los descargamos en la ruta correspondiente:
+
 ```
  cd /usr/share/zsh-sudo
 ```
