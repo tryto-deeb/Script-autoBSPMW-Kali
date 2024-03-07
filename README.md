@@ -57,7 +57,7 @@ en caso de que algo no salga bién poder restaurar el punto anterior a la instal
 ## Instalación
 
 ```
-git clone https://github.com/tryto-deeb/Script-autoBSPMW-Kali/tree/master
+git clone https://github.com/tryto-deeb/Script-autoBSPMW-Kali.git
 
 cd Script-autoBSPMW-Kali
 
@@ -66,4 +66,9 @@ chmod +x install.sh
 ./install
 
 ```
-Si alguna de las funciones falla , es porqué mientras se ejecuta la instalación a fallado alguna descarga, para solucinarlo solo es necesario poner manualmente la descarga fallida en la ubicación correspondiente. Si hiciste el Snapshot de la máquina virtual, también puedes restaurar la imagen anterior a la instalción y volver a lanzar el script.
+Si alguna de las funciones falla , es porqué mientras se ejecuta la instalación a fallado alguna descarga, para solucinarlo solo es necesario poner manualmente la descarga fallida en la ubicación correspondiente. Si hiciste el Snapshot de la máquina virtual, también puedes restaurar la imágen anterior a la instalción y volver a lanzar el script.
+
+
+## Parrot OS
+
+Este script deberia funcionar en cualquier distribución de Debian, menos en Parrot OS que es necesario sustituir los comandos  `sudo apt upgrade` por `sudo parrot-upgrade` en el archivo install.sh, el resto és todo lo mismo.
