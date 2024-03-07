@@ -10,32 +10,32 @@ Este script tiene como base el script en bash de [xJackSx](https://github.com/xJ
 ## Uso
 
 1 - 
-    -- Botón Izquierdo: Cambiar resolución a 1920x1080  
-    -- Botón Derecho: Cambiar resolución a 2560x1440  
+     Botón Izquierdo: Cambiar resolución a 1920x1080  
+         Botón Derecho: Cambiar resolución a 2560x1440  
 
 2 - Botón Izquierdo: Copiar IP   
-    Botón Derecho: Libre (nada)  
+        Botón Derecho: Libre (nada)  
     
 3 - Botón Izquierdo: Copiar IP de docker  
-    Botón Derecho: Libre (nada)  
+        Botón Derecho: Libre (nada)  
     
 4 - Botón Izquierdo: Copiar Ip VPN  
-    Botón Derecho: Libre (nada)  
+        Botón Derecho: Libre (nada)  
 
 5 - Botón Izquierdo: Abrir Firefox encapsulado por firejail  
-    Botón Derecho: Abrir Brave encapsulado por firejail  
+        Botón Derecho: Abrir Brave encapsulado por firejail  
 
 6 - Botón Izquierdo: Abrir Visual Studi Code  
-    Botón Derecho: Libre (nada)  
+        Botón Derecho: Libre (nada)  
     
 7 - Botón Izquierdo: Abrir Obsidian  
-    Botón Derecho: Tomar captura con Flameshot  
+        Botón Derecho: Tomar captura con Flameshot  
 
 8 - Botón Izquierdo: Abrir Caja ( gestor de archivos )   
-    Botón Derecho: Borrar historial del usuario  
+        Botón Derecho: Borrar historial del usuario  
 
 9 - Botón Izquierdo: Copiar IP del objetivo  
-    Botón Derecho: Borrar historial de la ZSH del usuario  
+        Botón Derecho: Borrar historial de la ZSH del usuario  
     
 Añadir nombre e IP de la máquina objetivo   
 ```
