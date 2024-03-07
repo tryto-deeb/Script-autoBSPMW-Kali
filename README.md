@@ -9,23 +9,60 @@ Este script tiene como base el script en bash de [xJackSx](https://github.com/xJ
 
 ## Uso
 
-1 - Botón Izquierdo:
-    Botón Derecho:
+1 - Botón Izquierdo: Cambiar resolución a 1920x1080
+    Botón Derecho: Cambiar resolución a 2560x1440
 
-2 - Botón Izquierdo:
-    Botón Derecho:
+2 - Botón Izquierdo: Copiar IP 
+    Botón Derecho: Libre (nada)
     
-3 - Botón Izquierdo:
-    Botón Derecho:
+3 - Botón Izquierdo: Copiar IP de docker
+    Botón Derecho: Libre (nada)
     
-4 - Botón Izquierdo:
-    Botón Derecho:
+4 - Botón Izquierdo: Copiar Ip VPN
+    Botón Derecho: Libre (nada)
 
-5 - Botón Izquierdo:
-    Botón Derecho:
+5 - Botón Izquierdo: Abrir Firefox encapsulado por firejail
+    Botón Derecho: Abrir Brave encapsulado por firejail
+
+6 - Botón Izquierdo: Abrir Visual Studi Code
+    Botón Derecho: Libre (nada)
+    
+7 - Botón Izquierdo: Abrir Obsidian
+    Botón Derecho: Tomar captura con Flameshot
+
+8 - Botón Izquierdo: Abrir Caja ( gestor de archivos ) 
+    Botón Derecho: Borrar historial del usuario
+
+9 - Botón Izquierdo: Copiar IP del objetivo
+    Botón Derecho: Borrar historial de la ZSH del usuario
+    
+Añadir nombre e IP de la máquina objetivo   
+```
+settarget Nombre_objetivo IP_objetivo
+```
 
 ## Pre-Instalación
 
+Este script esta pensado para instalar el entorno en maquina virtual, si acabas de hacer la instalación es recomendable hacer una primera actualización
+
+```
+sudo apt update
+
+sudo apt upgrade -y  # sudo apt full-ugprade si fuese necesario
+```
+En principio debería instalarlo todo sin problemas, pero por si acaso algo no sale como se espera  es recomendable hacer un snapshot en tu máquina virtual y
+en caso de que algo no salga bién poder restaurar el punto anterior a la instalación 
 
 ## Instalación
 
+```
+git clone https://github.com/tryto-deeb/Script-autoBSPMW-Kali/tree/master
+
+cd Script-autoBSPMW-Kali
+
+chmod +x install.sh
+
+./install
+
+```
+Si alguna de las funciones falla , es porqué mientras se ejecuta la instalació a fallado alguna descarga, para solucinarlo solo es necesario poner manualmente la descarga fallida en la ubicación correspondiente. Si hiciste el Snapshot de la máquina virtual, también puedes restaurar la imagen anterior a la instalción y volver a lanzar el script.
