@@ -48,7 +48,8 @@ Este script esta pensado para instalar el entorno en maquina virtual, si acabas 
 
 ```
 sudo apt update
-
+```
+```
 sudo apt upgrade -y  # sudo apt full-ugprade si fuese necesario
 ```
 En principio debería instalarlo todo sin problemas, pero por si acaso algo no sale como se espera  es recomendable hacer un snapshot en tu máquina virtual y
@@ -58,11 +59,17 @@ en caso de que algo no salga bién poder restaurar el punto anterior a la instal
 
 ```
 git clone https://github.com/tryto-deeb/Script-autoBSPMW-Kali.git
+```
 
+```
 cd Script-autoBSPMW-Kali
+```
 
+```
 chmod +x install.sh
+```
 
+```
 ./install
 
 ```
