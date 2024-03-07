@@ -35,7 +35,7 @@ Este script tiene como base el script en bash de [xJackSx](https://github.com/xJ
         Botón Derecho: Borrar historial del usuario  
 
 9 - Botón Izquierdo: Copiar IP del objetivo  
-        Botón Derecho: Borrar historial de la ZSH del usuario  
+        Botón Derecho: Resetear los datos del objetivo 
     
 Añadir nombre e IP de la máquina objetivo   
 ```
