@@ -42,6 +42,9 @@ Añadir nombre e IP de la máquina objetivo
 settarget Nombre_objetivo IP_objetivo
 ```
 
+-----
+
+
 ## Pre-Instalación
 
 Este script esta pensado para instalar el entorno en maquina virtual, si acabas de hacer la instalación es recomendable hacer una primera actualización
@@ -54,6 +57,9 @@ sudo apt upgrade -y  # sudo apt full-ugprade si fuese necesario
 ```
 En principio debería instalarlo todo sin problemas, pero por si acaso algo no sale como se espera  es recomendable hacer un snapshot en tu máquina virtual y
 en caso de que algo no salga bién poder restaurar el punto anterior a la instalación 
+
+-----
+
 
 ## Instalación
 
@@ -73,9 +79,28 @@ chmod +x install.sh
 ./install.sh
 
 ```
+
+
+------
+
+
+## Otro
+
 Si alguna de las funciones falla , es porqué mientras se ejecuta la instalación a fallado alguna descarga, para solucinarlo solo es necesario poner manualmente la descarga fallida en la ubicación correspondiente. Si hiciste el Snapshot de la máquina virtual, también puedes restaurar la imágen anterior a la instalción y volver a lanzar el script.
 
-
-## Parrot OS
-
 Este script deberia funcionar en cualquier distribución de Debian, menos en Parrot OS que es necesario sustituir los comandos  `sudo apt upgrade` por `sudo parrot-upgrade` en el archivo install.sh, el resto és todo lo mismo.
+
+#### Ejemplo error de descarga
+
+![Ejemplo.png](https://github.com/tryto-deeb/Script-autoBSPMW-Kali/blob/master/ejemplo_error_descarga.png)
+
+```
+ sudo mkdir /usr/share/zsh-sudo
+```
+```
+ cd /usr/share/zsh-sudo
+```
+```
+ sudo wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh
+```
+
