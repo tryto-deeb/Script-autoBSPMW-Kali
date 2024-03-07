@@ -9,8 +9,9 @@ Este script tiene como base el script en bash de [xJackSx](https://github.com/xJ
 
 ## Uso
 
-1 - Botón Izquierdo: Cambiar resolución a 1920x1080
-    Botón Derecho: Cambiar resolución a 2560x1440
+1 - 
+    - Botón Izquierdo: Cambiar resolución a 1920x1080
+    - Botón Derecho: Cambiar resolución a 2560x1440
 
 2 - Botón Izquierdo: Copiar IP 
     Botón Derecho: Libre (nada)
@@ -65,4 +66,4 @@ chmod +x install.sh
 ./install
 
 ```
-Si alguna de las funciones falla , es porqué mientras se ejecuta la instalació a fallado alguna descarga, para solucinarlo solo es necesario poner manualmente la descarga fallida en la ubicación correspondiente. Si hiciste el Snapshot de la máquina virtual, también puedes restaurar la imagen anterior a la instalción y volver a lanzar el script.
+Si alguna de las funciones falla , es porqué mientras se ejecuta la instalación a fallado alguna descarga, para solucinarlo solo es necesario poner manualmente la descarga fallida en la ubicación correspondiente. Si hiciste el Snapshot de la máquina virtual, también puedes restaurar la imagen anterior a la instalción y volver a lanzar el script.
