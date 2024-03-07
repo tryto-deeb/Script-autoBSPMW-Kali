@@ -70,7 +70,7 @@ chmod +x install.sh
 ```
 
 ```
-./install
+./install.sh
 
 ```
 Si alguna de las funciones falla , es porqué mientras se ejecuta la instalación a fallado alguna descarga, para solucinarlo solo es necesario poner manualmente la descarga fallida en la ubicación correspondiente. Si hiciste el Snapshot de la máquina virtual, también puedes restaurar la imágen anterior a la instalción y volver a lanzar el script.
